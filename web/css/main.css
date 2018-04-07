@@ -1,0 +1,37 @@
+@charset "UTF-8";
+ul{
+    text-align: center;
+    list-style-type: none;/*去除列表前面的小圆点标志*/
+    margin: 0;
+    padding: 6px 0px;
+}
+ul li{
+    display: inline;/*默认的li元素会换行，而加入display:inline就是不换行*/
+}
+ol li{
+    list-style-image:url("../img/eg_arrow.gif");
+}
+ol.outside{/*这里不能写成ol li.outside*/
+    list-style-position: outside;
+    font-style: italic;
+    color:mediumvioletred;
+    font-weight: bold;
+}
+ol.inside{
+    list-style-position: inside;
+    font-style: normal;
+    color: darkgreen;
+    font-weight: bold;
+}
+a:link,a:visited{
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 6px;/*上下左右边距*/
+    text-decoration: none;/*此句用于去除链接的下划线*/
+    text-transform:uppercase;/*字母大写*/
+}
+a:hover,a:active{
+    background-color: #7a991a;
+}

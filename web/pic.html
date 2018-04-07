@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+
+        div.pic {
+            position: relative;
+            width: 800px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        div.img {
+            margin: 3px;
+            border: 1px solid #bebebe;
+            height: auto;
+            width: auto;
+            float: left;
+            text-align: center;
+        }
+
+        div.img img {
+            display: inline;
+            margin: 3px;
+            border: 1px solid #bebebe;
+        }
+
+        div.img a:hover img {
+            border: 1px solid #333333;
+        }
+
+        div.img div.desc {
+            text-align: center;
+            font-weight: normal;
+            width: 150px;
+            font-size: 12px;
+            margin: 10px 5px;
+        }
+
+        div.ul {
+
+            height: auto;
+            background: url("img/bg.jpg") no-repeat;
+            clear: both;
+            position: relative;
+            width: 800px;
+            margin: 0 auto;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        div.ul li {
+            display: inline;
+            padding-left: auto;
+            /*background-image: url("img/bg.jpg");*/
+        }
+
+        div.ul a {
+            float: left;
+            width: 7em;
+            text-decoration: none;
+            color: white;
+            background-color: purple;
+            padding: 0.2em 0.6em;
+            border: 1px solid white;
+        }
+
+        div.ul a:hover {
+            background-color: #ff3300;
+        }
+        div.ul p{
+            clear: both;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="pic">
+    <div class="img">
+        <a target="_blank" href="img/tulip_ballade.jpg">
+            <img src="img/tulip_ballade.jpg" alt="ballade" width="160" height="160"></a>
+        <div class="desc">在此处添加对图像的描述</div>
+    </div>
+    <div class="img">
+        <a target="_blank" href="img/tulip_flaming_club.jpg">
+            <img src="img/tulip_flaming_club.jpg" alt="flaming" width="160" height="160"></a>
+        <div class="desc">在此处添加对图像的描述</div>
+    </div>
+    <div class="img">
+        <a target="_blank" href="img/tulip_fringed_family.jpg">
+            <img src="img/tulip_fringed_family.jpg" alt="ballade" width="160" height="160"></a>
+        <div class="desc">在此处添加对图像的描述</div>
+    </div>
+    <div class="img">
+        <a target="_blank" href="img/tulip_peach_blossom.jpg">
+            <img src="img/tulip_peach_blossom.jpg" alt="flaming" width="160" height="160"></a>
+        <div class="desc">在此处添加对图像的描述</div>
+    </div>
+</div>
+<div class="ul">
+    <ul>
+        <li><a href="#">链接一</a></li>
+        <li><a href="#">链接二</a></li>
+        <li><a href="#">链接三</a></li>
+        <li><a href="#">链接四</a></li>
+    </ul>
+    <p>test</p>
+</div>
+</body>
+</html>
